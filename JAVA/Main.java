@@ -28,8 +28,8 @@ public class Main{
            System.out.println("Masukan pilihan: ");
            try{
                 pilihan = sc.nextInt();
+                sc.nextLine();
             }catch(Exception e){
-                sc.next();
             }
 
             if(pilihan == 1){//add
@@ -37,26 +37,28 @@ public class Main{
                 String id, nama_produk, jenis, bahan, warna, untuk, size, merk;
                 int harga_produk = 0, stok_produk = 0;
 
-                System.out.println("Masukan Data:");
+                System.out.println("Masukan Data:\n");
 
-                System.out.println("Masukan ID Produk: "); id = sc.next();
-                System.out.println("Masukan Nama Produk: "); nama_produk = sc.next();
+                System.out.println("Masukan ID Produk: "); id = sc.nextLine();
+                System.out.println("Masukan Nama Produk: "); nama_produk = sc.nextLine();
                 System.out.println("Masukan Harga Produk: ");
                 try{
                     harga_produk = sc.nextInt();
+                    sc.nextLine();
                 }catch (Exception e){
                 } 
                 System.out.println("Masukan Stok Produk: ");
                 try{
                     stok_produk = sc.nextInt();
+                    sc.nextLine();
                 }catch (Exception e){
                 } 
-                System.out.println("Masukan Jenis Aksesoris: "); jenis = sc.next();
-                System.out.println("Masukan Bahan Aksesoris: "); bahan = sc.next();
-                System.out.println("Masukan Warna Aksesoris: "); warna = sc.next();
-                System.out.println("Masukan Baju Untuk: "); untuk = sc.next();
-                System.out.println("Masukan Size Baju: "); size = sc.next();
-                System.out.println("Masukan Merk Baju: "); merk = sc.next();
+                System.out.println("Masukan Jenis Aksesoris: "); jenis = sc.nextLine();
+                System.out.println("Masukan Bahan Aksesoris: "); bahan = sc.nextLine();
+                System.out.println("Masukan Warna Aksesoris: "); warna = sc.nextLine();
+                System.out.println("Masukan Baju Untuk: "); untuk = sc.nextLine();
+                System.out.println("Masukan Size Baju: "); size = sc.nextLine();
+                System.out.println("Masukan Merk Baju: "); merk = sc.nextLine();
 
                 listBaju.add(new Baju(id, nama_produk, harga_produk, stok_produk, jenis, bahan, warna, untuk, size, merk));
 
@@ -72,8 +74,10 @@ public class Main{
                 if(size.length() > maxpanjang[8]) maxpanjang[8] = size.length();
                 if(merk.length() > maxpanjang[9]) maxpanjang[9] = merk.length();
 
-                System.out.println("Produk berhasil ditambahkan!");
+                System.out.println("Data berhasil ditambahkan!\n");
             }else if(pilihan == 2){//view
+                System.out.println("Tabel Data Produk:\n");
+
                 //upper
                 System.out.print("+");
                 for(int panjang : maxpanjang){
