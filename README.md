@@ -26,12 +26,12 @@ Untuk C++, JAVA, PYTHON
 - Program dieksekusi sesuai dengan format eksekusi masing-masing bahasa pemrograman.
 - Program dimulai dengan membuat 5 objek awal dari kelas Baju dan menyimpannya dalam daftar (list).
 - Program menampilkan menu pilihan kepada pengguna:
-   1. Tambah → Menambahkan data baru.
+1. Tambah → Menambahkan data baru.
    - Program akan meminta pengguna memasukkan data baru.
    - Data yang dimasukkan akan disimpan ke dalam list.
-   2. Lihat → Menampilkan seluruh data yang telah dimasukkan.
+2. Lihat → Menampilkan seluruh data yang telah dimasukkan.
    - Program akan menggunakan getter methods untuk mengambil dan menampilkan data.
-   3. Keluar → Menghentikan program.
+3. Keluar → Menghentikan program.
    - Jika pengguna memilih opsi ini, program akan berhenti.
 - User memilih menu dengan memasukkan angka sesuai dengan pilihan yang diinginkan.
   
