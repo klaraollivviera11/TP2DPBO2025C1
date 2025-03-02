@@ -28,6 +28,7 @@ untuk keberkahanNya maka saya tidak melakukan kecurangan seperti yang telah disp
     </style>
 </head>
 <body>
+    <!-- PROGRAM BERBENTUK HARDCODE -->
     <?php
     require ('Baju.php');
 
@@ -58,7 +59,7 @@ untuk keberkahanNya maka saya tidak melakukan kecurangan seperti yang telah disp
             <th>Size</th>
             <th>Merk</th>
         </tr>
-
+            
         <?php foreach ($listBaju as $baju) { ?>
         <tr>
             <td><?php echo $baju->get_id(); ?></td>
@@ -85,6 +86,7 @@ untuk keberkahanNya maka saya tidak melakukan kecurangan seperti yang telah disp
     ?>
     
     <h2 style="text-align: center;">Add Data</h2>
+    <!-- menampilkan data -->
     <table>
         <tr>
             <th>ID</th>
