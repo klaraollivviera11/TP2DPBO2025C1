@@ -5,7 +5,7 @@ Saya Klara Ollivviera Augustine Gunawan dengan NIM 2306205 mengerjakan soal Tuga
 ![TP2 drawio (1)](https://github.com/user-attachments/assets/8f900048-04bf-41bd-ae7b-147840fb30fc)
 
 # Desain Program
-Program berisi 3 class yaitu Petshop, Aksesoris, dan Baju. Program mengimplementasikan multilevel inheritance, class Petshop adalah parent dari class Aksesoris dan class Aksesoris adalah parent dari clas Baju tergambar pada diagram relasi. Berikut isi atribut-atribut dari masing-masing class:
+Program berisi 3 class yaitu Petshop, Aksesoris, dan Baju. Program mengimplementasikan multilevel inheritance, class Petshop adalah parent dari class Aksesoris dan class Aksesoris adalah parent dari class Baju tergambar pada diagram relasi. Berikut isi atribut-atribut dari masing-masing class:
 1. Petshop
    - ID
    - Nama Produk
