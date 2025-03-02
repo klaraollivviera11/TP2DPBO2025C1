@@ -6,8 +6,7 @@ Saya Klara Ollivviera Augustine Gunawan dengan NIM 2306205 mengerjakan soal Tuga
 
 # Dokumentasi
 ## PHP
-<img width="1062" alt="DOKUMENTASI PHP TP2(1)" src="https://github.com/user-attachments/assets/0b515439-f189-4f62-ac09-7f248566b7f4" />
-<img width="1064" alt="DOKUMENTASI PHP TP2(2)" src="https://github.com/user-attachments/assets/ece26980-0f3c-4a3d-8d90-393046648e93" />
+<img width="1440" alt="DOKUMENTASI PHP TP2" src="https://github.com/user-attachments/assets/ebc240e6-4769-4f1f-b018-f6f09b795a1e" />
 
 ## CPP
 <img width="748" alt="DOKUMENTASI CPP TP2" src="https://github.com/user-attachments/assets/62c4a9be-3971-4407-a65f-78e30f5035e3" />
