@@ -2,7 +2,24 @@
 Saya Klara Ollivviera Augustine Gunawan dengan NIM 2306205 mengerjakan soal Tugas Praktikum 2 dalam mata kuliah DPBO untuk keberkahanNya maka saya tidak melakukan kecurangan seperti yang telah dispesifikasikan. Aamiin
 
 # Diagram
-![TP2 drawio](https://github.com/user-attachments/assets/1b74746c-33dd-4cb8-a191-17a77baed7c5)
+![TP2 drawio (1)](https://github.com/user-attachments/assets/8f900048-04bf-41bd-ae7b-147840fb30fc)
+
+# Desain Program
+Program berisi 3 class yaitu Petshop, Aksesoris, dan Baju. Program mengimplementasikan multilevel inheritance, class Petshop adalah parent dari class Aksesoris dan class Aksesoris adalah parent dari clas Baju tergambar pada diagram relasi. Berikut isi atribut-atribut dari masing-masing class:
+1. Petshop
+   - ID
+   - Nama Produk
+   - Harga Produk
+   - Stok Produk
+   - Foto Produk (untuk PHP)
+2. Aksesoris
+   - Jenis
+   - Bahan
+   - Warna
+3. Baju
+   - Untuk
+   - Size
+   - Merk
 
 # Dokumentasi
 ## PHP
