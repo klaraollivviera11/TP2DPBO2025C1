@@ -22,6 +22,7 @@ Program berisi 3 class yaitu Petshop, Aksesoris, dan Baju. Program mengimplement
    - Merk
      
 # Alur Program
+Untuk CPP, JAVA, PYTHON
 - Program dieksekusi berdasarkan format eksekusi masing-masing bahasa.
 - User diminta untuk memasukan pilihan menu, yang terdiri dari:
 1. Tambah -> untuk menambahkan data, program akan meminta input data
