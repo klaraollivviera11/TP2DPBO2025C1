@@ -22,13 +22,18 @@ Program berisi 3 class yaitu Petshop, Aksesoris, dan Baju. Program mengimplement
    - Merk
      
 # Alur Program
-Untuk CPP, JAVA, PYTHON
-- Program dieksekusi berdasarkan format eksekusi masing-masing bahasa.
-- User diminta untuk memasukan pilihan menu, yang terdiri dari:
-1. Tambah -> untuk menambahkan data, program akan meminta input data
-2. Lihat -> untuk menampilkan seluruh data, program akan menampilkan data
-3. Keluar -> untuk keluar program, program akan berhenti
-- Menu yang dimasukan yaitu angka dari menu yang dipilih.
+Untuk C++, JAVA, PYTHON
+- Program dieksekusi sesuai dengan format eksekusi masing-masing bahasa pemrograman.
+- Program dimulai dengan membuat 5 objek awal dari kelas Baju dan menyimpannya dalam daftar (list).
+- Program menampilkan menu pilihan kepada pengguna:
+   1. Tambah → Menambahkan data baru.
+   - Program akan meminta pengguna memasukkan data baru.
+   - Data yang dimasukkan akan disimpan ke dalam list.
+   2. Lihat → Menampilkan seluruh data yang telah dimasukkan.
+   - Program akan menggunakan getter methods untuk mengambil dan menampilkan data.
+   3. Keluar → Menghentikan program.
+   - Jika pengguna memilih opsi ini, program akan berhenti.
+- User memilih menu dengan memasukkan angka sesuai dengan pilihan yang diinginkan.
   
 Kondisi:
 - ID yang diberikan harus unik dan berbeda untuk setiap produk.
