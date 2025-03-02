@@ -31,6 +31,7 @@ Untuk C++, JAVA, PYTHON
    - Data yang dimasukkan akan disimpan ke dalam list.
 2. Lihat → Menampilkan seluruh data yang telah dimasukkan.
    - Program akan menggunakan getter methods untuk mengambil dan menampilkan data.
+   - Tampilan data akan disajikan dalam bentuk tabel dinamis
 3. Keluar → Menghentikan program.
    - Jika pengguna memilih opsi ini, program akan berhenti.
 - User memilih menu dengan memasukkan angka sesuai dengan pilihan yang diinginkan.
