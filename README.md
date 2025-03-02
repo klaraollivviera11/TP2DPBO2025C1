@@ -20,6 +20,18 @@ Program berisi 3 class yaitu Petshop, Aksesoris, dan Baju. Program mengimplement
    - Untuk
    - Size
    - Merk
+     
+# Alur Program
+- Program dieksekusi berdasarkan format eksekusi masing-masing bahasa.
+- User diminta untuk memasukan pilihan menu, yang terdiri dari:
+1. Tambah -> untuk menambahkan data, program akan meminta input data
+2. Lihat -> untuk menampilkan seluruh data, program akan menampilkan data
+3. Keluar -> untuk keluar program, program akan berhenti
+- Menu yang dimasukan yaitu angka dari menu yang dipilih.
+  
+Kondisi:
+- ID yang diberikan harus unik dan berbeda untuk setiap produk.
+- Program akan terus berjalan (meminta input pilihan) hingga user memilih menu Keluar.
 
 # Dokumentasi
 ## PHP
