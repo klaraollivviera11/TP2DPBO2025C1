@@ -1,5 +1,6 @@
 untuk CPP, JAVA, PYTHON
 
+TC menu 1
 06
 Nyangkul
 50000
